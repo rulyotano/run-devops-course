@@ -1,4 +1,4 @@
-﻿namespace Shopping.Client.Models
+﻿namespace Shopping.API.Models
 {
     public class Product
     {
