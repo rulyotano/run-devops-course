@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  shopping.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  shopping.client:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  shopping.db:
+    container_name: shopping.db
+    restart: always    
+    ports:
+      - "27017:27017"
+    volumes:
+      - ${WEBAPP_STORAGE_HOME}/site:/data/db
