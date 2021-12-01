@@ -4,3 +4,6 @@ Trying to follow this [Deploying .Net Microservices with K8s, AKS and Azure DevO
 
 ## Notes
 - For the part of automatic builds with docker hubs, since this features turned to be now in the payed membership, I used this approach described in this article [Generando y publicando imágenes Docker con GitHub Actions](https://www.fixedbuffer.com/publicando-imagenes-docker-con-github-actions/) from [@JorTurFer](https://github.com/JorTurFer)
+
+## Guide
+[Guide project for the course](https://github.com/aspnetrun/run-devops)
